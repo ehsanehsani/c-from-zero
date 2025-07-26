@@ -10,6 +10,7 @@ This repository is designed to help absolute beginners learn the C programming l
 - **Session 1**
   - [Getting Started](session1/1-getting-started.md)
   - [Compilation Steps](session1/2-compilation.md)
+  - [Checking for Memory Issues with Valgrind](session1/3-valgrind.md)
 - **Session 2**
 
 ---
