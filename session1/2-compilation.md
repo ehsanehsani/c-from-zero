@@ -91,6 +91,20 @@ Now running `make foo` will use your specified build instructions.
 
 ---
 
+## 4. `gcc` in Windows.
+
+First you need to install Msys2 tools in windows, then open MSYS2 MINGW64 bash, then find your .c file, if your file is located in c:\ you need to go the directory like this:
+```sh
+cd c:/
+```
+and then for compiling:
+```sh
+gcc hello.c -o hello
+```
+
+- This creates an executable file named `hello.exe`.
+- To run it simply write : './hello.exe'
+
 ### Key Differences
 
 | gcc          | make                     |
